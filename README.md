@@ -1,6 +1,6 @@
 # Functions Network
 ## Description
-Functions Network is a script that allows you to visualize the link between every functions of a C project. The better use of this script is to use it on a project norm with the 42 Norm.
+Functions Network is a script that allows you to visualize the link between every function of a C project. The better use of this script is to use it on a project norm with the 42 Norm.
 ## Installation
 ```bash
 apt-get install python3
@@ -10,8 +10,8 @@ pip install -r requirements.txt
 ```bash
 python funtions_network.py <path to files or directories> ...
 ```
-Links between functions are created when a function call another function and is represent as an arrow.
-When using multiples files and directories, every files will be colored in a different color.
+The links between functions are created when a function call another function and is represented as an arrow.
+When using multiples files and directories, every file will be colored in a different color.
 ## Example
 ```bash
 python funtions_network.py file1.c file2.c
