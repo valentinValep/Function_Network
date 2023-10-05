@@ -10,6 +10,8 @@ pip install -r requirements.txt
 ```bash
 python funtions_network.py <path to files or directories> ...
 ```
+Links between functions are created when a function call another function and is represent as an arrow.
+When using multiples files and directories, every files will be colored in a different color.
 ## Example
 ```bash
 python funtions_network.py file1.c file2.c
